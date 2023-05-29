@@ -1,11 +1,10 @@
 import './App.css';
-
+import NavBar from './components/navbar';
 function App() {
   return (
     <div className="App">
-      <h1>You tube</h1>
+      <NavBar/>
     </div>
   );
 }
-
 export default App;
