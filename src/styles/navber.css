@@ -1,0 +1,59 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding :0px  45px;
+}
+
+.searchBar input{
+  height: 38px;
+  width: 500px;
+  border-radius: 22px;
+  border:  1px solid rgb(189, 184, 184);
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+
+.searchBar input:focus  
+{
+    outline: none;
+    border: 2px solid rgb(13, 158, 249);
+}
+.userOption
+{
+    display: flex;
+    align-items: center;
+}
+.profile
+{
+    width: 32px;
+    height: 32px;
+    border:  none;
+    background-color: rgb(253, 67, 98);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    margin-left: 20px;
+}
+.profile p
+{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    border: none;  
+}
+.video
+{
+    margin-left: 25px;
+}
+
